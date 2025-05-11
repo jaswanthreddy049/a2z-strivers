@@ -12,8 +12,6 @@ class Solution(object):
                 result=min(result,nums[mid])
                 e=mid-1
         return result
-
-            
         """
         :type nums: List[int]
         :rtype: int
