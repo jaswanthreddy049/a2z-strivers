@@ -31,7 +31,7 @@ class Solution(object):
         freq={"a":0,"b":0,"c":0}
         while(r<len(s)):
             freq[s[r]]+=1
-            while(freq[a]>0 and freq[b]>0 and freq[c]>0):
+            while(freq["a"]>0 and freq["b"]>0 and freq["c"]>0):
                 result+=len(s)-r
                 freq[s[l]]-=1
                 l+=1
